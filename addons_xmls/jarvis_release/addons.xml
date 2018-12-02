@@ -6,11 +6,11 @@
   <extension name="Catch-up TV &amp; More Jarvis/Release repository addon" point="xbmc.addon.repository">
     
     <info compressed="false">
-      http://raw.github.com/Catch-up-TV-and-More/repository.catchuptvandmore/addons_xmls/jarvis_release/addons.xml
+      http://raw.github.com/Catch-up-TV-and-More/repository.catchuptvandmore/master/addons_xmls/jarvis_release/addons.xml
     </info>
     
     <checksum>
-      http://raw.github.com/Catch-up-TV-and-More/repository.catchuptvandmore/addons_xmls/jarvis_release/addons.xml.md5
+      http://raw.github.com/Catch-up-TV-and-More/repository.catchuptvandmore/master/addons_xmls/jarvis_release/addons.xml.md5
     </checksum>
     
     <datadir zip="true">

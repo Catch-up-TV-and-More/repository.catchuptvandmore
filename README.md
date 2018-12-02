@@ -11,6 +11,6 @@ Leia users can use Krypton add-on.
 ### How to update Jarvis Release repository
 
 ```python
-python create_repository.py -d ./zips/jarvis_release -i addons_xmls/jarvis_release/addons.xml -c addons_xmls/jarvis_release/addons.xml.md5 repo_addons_src/catchuptvandmore.kodi.jarvis.release-0.0.3/ repo_addons_src/catchuptvandmore.kodi.jarvis.release-0.0.4/ https://github.com/Catch-up-TV-and-More/plugin.video.catchuptvandmore\#kodi16
+python create_repository.py -d ./zips/jarvis_release -i addons_xmls/jarvis_release/addons.xml -c addons_xmls/jarvis_release/addons.xml.md5 repo_addons_src/catchuptvandmore.kodi.jarvis.release/ https://github.com/Catch-up-TV-and-More/plugin.video.catchuptvandmore\#kodi16
 ```
 
