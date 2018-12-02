@@ -1,12 +1,15 @@
 # Catch-up TV &amp; More repository
 
 
-## Notes for final users (TODO)
+## Notes for Kodi users
 
-This repo contains the repository add-on of Catch-up &amp; More in order to give the user the ability to keep Catch-up &amp; More automatically up to date.
+This is the repository of Catch-up &amp; More in order to give the user the ability to keep Catch-up &amp; More automatically up to date.
 There is different add-on for different Kodi version.
 
 Leia users can use Krypton add-on.
+
+**In order to install our repo addon, please follow the wiki tutorial: [Add-the-official-repository](https://github.com/Catch-up-TV-and-More/plugin.video.catchuptvandmore/wiki/Add-the-official-repository)**
+
 
 
 ## Developers notes
@@ -65,4 +68,5 @@ python create_repository.py \
 	repo_addons_src/catchuptvandmore.kodi.leia.drmtest/ \
 	https://github.com/Catch-up-TV-and-More/plugin.video.catchuptvandmoretestdrmkodi18\#master
 ```
+
 
