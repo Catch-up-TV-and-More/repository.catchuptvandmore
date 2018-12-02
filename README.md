@@ -13,7 +13,7 @@ Leia users can use Krypton add-on.
 
 ### How to update the Jarvis Release repository
 
-```python
+```bash
 python create_repository.py \
 	--datadir ./zips/jarvis_release \
 	--info addons_xmls/jarvis_release/addons.xml \
@@ -24,7 +24,7 @@ python create_repository.py \
 
 ### How to update the Jarvis Beta repository
 
-```python
+```bash
 python create_repository.py \
 	--datadir ./zips/jarvis_beta \
 	--info addons_xmls/jarvis_beta/addons.xml \
@@ -35,7 +35,7 @@ python create_repository.py \
 
 ### How to update the Krypton Release repository
 
-```python
+```bash
 python create_repository.py \
 	--datadir ./zips/krypton_release \
 	--info addons_xmls/krypton_release/addons.xml \
@@ -46,7 +46,7 @@ python create_repository.py \
 
 ### How to update the Krypton Beta repository
 
-```python
+```bash
 python create_repository.py \
 	--datadir ./zips/krypton_beta \
 	--info addons_xmls/krypton_beta/addons.xml \
@@ -57,7 +57,7 @@ python create_repository.py \
 
 ### How to update the Leia Test DRM repository
 
-```python
+```bash
 python create_repository.py \
 	--datadir ./zips/leia_drmtest \
 	--info addons_xmls/leia_drmtest/addons.xml \
