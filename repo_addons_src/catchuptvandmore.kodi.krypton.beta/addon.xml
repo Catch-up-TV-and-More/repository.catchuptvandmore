@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="catchuptvandmore.kodi.krypton.beta" name="Catch-up TV &amp; More Krypton/Beta repository addon" version="0.0.4" provider-name="SylvainCcchetto,wwark">
+  <requires>
+    <import addon="xbmc.addon" version="17.0.0"/>
+  </requires>
+  <extension point="xbmc.addon.repository" name="Catch-up TV &amp; More Krypton/Beta repository addon">
+    
+    <info compressed="false">
+      http://raw.github.com/Catch-up-TV-and-More/repository.catchuptvandmore/master/addons_xmls/krypton_beta/addons.xml
+    </info>
+    
+    <checksum>
+      http://raw.github.com/Catch-up-TV-and-More/repository.catchuptvandmore/master/addons_xmls/krypton_beta/addons.xml.md5
+    </checksum>
+    
+    <datadir zip="true">
+      http://raw.github.com/Catch-up-TV-and-More/repository.catchuptvandmore/master/zips/krypton_beta
+    </datadir>
+  
+  </extension>
+  
+  <extension point="xbmc.addon.metadata">
+    <summary>
+      To get the Catch-up TV &amp; More addon
+    </summary>
+    
+    <description>
+      Install Catch-up TV &amp; More addon in its latest official version from the official developers repository.
+    </description>
+    
+    <platform>
+      all
+    </platform>
+    
+    <website>
+      https://github.com/Catch-up-TV-and-More/plugin.video.catchuptvandmore
+    </website>
+    
+  </extension>
+</addon>

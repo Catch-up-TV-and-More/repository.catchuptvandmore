@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<addons><addon id="catchuptvandmore.kodi.leia.drmtest" name="Catch-up TV &amp; More Leia test DRM repository addon" provider-name="SylvainCcchetto,wwark" version="0.0.4">
+  <requires>
+    <import addon="xbmc.addon" version="17.0.0" />
+  </requires>
+  <extension name="Catch-up TV &amp; More Leia test DRM repository addon" point="xbmc.addon.repository">
+    
+    <info compressed="false">
+      http://raw.github.com/Catch-up-TV-and-More/repository.catchuptvandmore/master/addons_xmls/leia_drmtest/addons.xml
+    </info>
+    
+    <checksum>
+      http://raw.github.com/Catch-up-TV-and-More/repository.catchuptvandmore/master/addons_xmls/leia_drmtest/addons.xml.md5
+    </checksum>
+    
+    <datadir zip="true">
+      http://raw.github.com/Catch-up-TV-and-More/repository.catchuptvandmore/master/zips/leia_drmtest
+    </datadir>
+  
+  </extension>
+  
+  <extension point="xbmc.addon.metadata">
+    <summary>
+      To get the Catch-up TV &amp; More addon
+    </summary>
+    
+    <description>
+      Install Catch-up TV &amp; More addon in its latest official version from the official developers repository. (Leia test DRM !)
+    </description>
+    
+    <platform>
+      all
+    </platform>
+    
+    <website>
+      https://github.com/Catch-up-TV-and-More/plugin.video.catchuptvandmoretestdrmkodi18
+    </website>
+    
+  </extension>
+</addon><addon id="plugin.video.catchuptvandmoretestdrmkodi18" name="Catch-up TV &amp; More Test DRM Kodi 18" provider-name="SylvainCcchetto,wwark" version="0.1.0~beta10">
+  <requires>
+    <import addon="xbmc.python" version="2.26.0" />
+    <import addon="script.module.beautifulsoup4" version="4.3.2" />
+    <import addon="script.module.youtube.dl" version="18.225.0" />
+    <import addon="script.module.inputstreamhelper" version="0.3.3" />
+    <import addon="script.module.requests" version="2.12.4" />
+    <import addon="script.module.codequick" version="0.9.5" />
+  </requires>
+  <extension library="addon.py" point="xbmc.python.pluginsource">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <reuselanguageinvoker>false</reuselanguageinvoker>
+    <summary lang="fr_fr">Catch-Up TV &amp; More : Replay TV, Live TV et bien plus encore.</summary>
+    <description lang="fr_fr">Catch-Up TV &amp; More regroupe dans un même plugin Kodi l'ensemble des vidéos des différents services et chaînes de Replay TV (rattrapage TV) ainsi que l'accès au direct. De plus, cette extension vous permet d'accéder rapidement aux vidéos et contenus proposés par certains sites internet.</description>
+    <disclaimer lang="fr_fr">Retours de bugs, propositions d'améliorations ou d'ajout de contenus sont les bienvenue ! GitHub ou e-mail.</disclaimer>
+    <summary lang="en_gb">Catch-Up TV &amp; More: It's all in the title.</summary>
+    <description lang="en_gb">Catch-Up TV &amp; More brings together in one Kodi plugin all the videos of the various services and channels of catch-up TV and live TV. Furthermore, this addon allows you to quickly access the videos and content offered by certain websites.</description>
+    <disclaimer lang="en_gb">Bug reports, suggestions for improvements or content additions are welcome! GitHub or e-mail.</disclaimer>
+    <description lang="he_il">ההרחבה מאפשרת לך להתעדכן בתוכן השידורים תוסף אחד של קודי מרכז את כל קטעי וידאו של שירותים שונים וערוצי תוכן משודר. בנוסף, תוספת זו מאפשרת לך לגשת במהירות לסרטונים ולתכנים המוצעים על ידי אתרים מסוימים.</description>
+    <disclaimer lang="he_il">דוחות שגיאה, הצעות לשיפור או תוספות תוכן יתקבלו בברכה! ל-GitHub או אימייל.</disclaimer>
+
+    <language>fr</language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum />
+    <website />
+    <email>catch.up.tv.and.more [AT] gmail [DOT] com</email>
+    <source>https://github.com/Catch-up-TV-and-More/plugin.video.catchuptvandmoretestdrmkodi18</source>
+    <news>
+[Version 0.1.0]
+[Move] Codequick framework
+[improvements] Add TV Guid (FR)
+[DRM] Add UKTVPlay channels (UK)
+[Improvements] Add settings to activate subtitle if present in the content (desactivate by default)
+[DRM] Add mycanal channels (FR)
+    </news>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+      <screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+      <screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+      <screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+      <screenshot>resources/screenshots/screenshot-04.jpg</screenshot>
+      <screenshot>resources/screenshots/screenshot-05.jpg</screenshot>
+    </assets>
+  </extension>
+</addon></addons>
