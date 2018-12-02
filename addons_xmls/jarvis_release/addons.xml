@@ -1,43 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="catchuptvandmore.kodi.jarvis.release" name="Catch-up TV &amp; More Jarvis/Release repository addon" provider-name="SylvainCcchetto,wwark" version="0.0.3">
-  <requires>
-    <import addon="xbmc.addon" version="16.0.0" />
-  </requires>
-  <extension name="Catch-up TV &amp; More Jarvis/Release repository addon" point="xbmc.addon.repository">
-    
-    <info compressed="false">
-      http://raw.github.com/Catch-up-TV-and-More/repository.catchuptvandmore/addons_xmls/jarvis_release/addons.xml
-    </info>
-    
-    <checksum>
-      http://raw.github.com/Catch-up-TV-and-More/repository.catchuptvandmore/addons_xmls/jarvis_release/addons.xml.md5
-    </checksum>
-    
-    <datadir zip="true">
-      http://raw.github.com/Catch-up-TV-and-More/repository.catchuptvandmore/master/zips/jarvis_release
-    </datadir>
-  
-  </extension>
-  
-  <extension point="xbmc.addon.metadata">
-    <summary>
-      To get the Catch-up TV &amp; More addon
-    </summary>
-    
-    <description>
-      Install Catch-up TV &amp; More addon in its latest official version from the official developers repository. WARNING: The last major version of the plugin will no longer support Kodi 16 (Jarvis). To continue using this addon please update to (at least) Kodi 17 or contact us for more information. Thank you for your understanding.
-    </description>
-    
-    <platform>
-      all
-    </platform>
-    
-    <website>
-      https://github.com/Catch-up-TV-and-More/plugin.video.catchuptvandmore
-    </website>
-    
-  </extension>
-</addon><addon id="catchuptvandmore.kodi.jarvis.release" name="Catch-up TV &amp; More Jarvis/Release repository addon" provider-name="SylvainCcchetto,wwark" version="0.0.4">
+<addons><addon id="catchuptvandmore.kodi.jarvis.release" name="Catch-up TV &amp; More Jarvis/Release repository addon" provider-name="SylvainCcchetto,wwark" version="0.0.4">
   <requires>
     <import addon="xbmc.addon" version="16.0.0" />
   </requires>
