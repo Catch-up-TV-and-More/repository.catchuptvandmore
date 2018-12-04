@@ -1,6 +1,13 @@
 #!/usr/bin/env bash
 
 
+echo -e "\n To avoid any git conflict we do a force pull first\n"
+git fetch --all
+git reset --hard origin/master
+
+
+
+
 
 echo -e "\n# Get previous addons.xml md5 of all repos\n"
 
@@ -21,11 +28,6 @@ leia_drmtest_md5=$(head -n 1 ./addons_xmls/leia_drmtest/addons.xml.md5| awk '{pr
 echo -e "\t* Leai DRM test repo current MD5: $leia_drmtest_md5"
 
 
-
-
-echo -e "\n To avoid any git conflict we do a force pull\n"
-git fetch --all
-git reset --hard origin/master
 
 
 
