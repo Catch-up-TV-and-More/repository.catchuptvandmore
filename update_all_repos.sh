@@ -1,7 +1,13 @@
 #!/usr/bin/env bash
 
+BASEDIR=$(dirname "$0")
 
-echo -e "\n To avoid any git conflict we do a force pull first\n"
+cd $BASEDIR
+cwd=$(pwd)
+
+echo -e ""
+echo -e "- Current workning directory: $cwd"
+echo -e "- To avoid any git conflict we do a force pull first\n"
 git fetch --all
 git reset --hard origin/master
 
@@ -34,43 +40,43 @@ echo -e "\t* Leai DRM test repo current MD5: $leia_drmtest_md5"
 echo -e "\n# Start create_repository.py script on all repos\n"
 
 echo -e "\t* Start create_repository.py on Jarvis beta repo"
-python create_repository.py \
+python ./create_repository.py \
 	--datadir ./zips/jarvis_beta \
-	--info addons_xmls/jarvis_beta/addons.xml \
-	--checksum addons_xmls/jarvis_beta/addons.xml.md5 \
-	repo_addons_src/catchuptvandmore.kodi.jarvis.beta/ \
+	--info ./addons_xmls/jarvis_beta/addons.xml \
+	--checksum ./addons_xmls/jarvis_beta/addons.xml.md5 \
+	./repo_addons_src/catchuptvandmore.kodi.jarvis.beta/ \
 	https://github.com/Catch-up-TV-and-More/plugin.video.catchuptvandmore\#kodi16
 
 echo -e "\t* Start create_repository.py on Jarvis release repo"
-python create_repository.py \
+python ./create_repository.py \
 	--datadir ./zips/jarvis_release \
-	--info addons_xmls/jarvis_release/addons.xml \
-	--checksum addons_xmls/jarvis_release/addons.xml.md5 \
-	repo_addons_src/catchuptvandmore.kodi.jarvis.release/ \
+	--info ./addons_xmls/jarvis_release/addons.xml \
+	--checksum ./addons_xmls/jarvis_release/addons.xml.md5 \
+	./repo_addons_src/catchuptvandmore.kodi.jarvis.release/ \
 	https://github.com/Catch-up-TV-and-More/plugin.video.catchuptvandmore\#kodi16
 
 echo -e "\t* Start create_repository.py on Krypton beta repo"
-python create_repository.py \
+python ./create_repository.py \
 	--datadir ./zips/krypton_beta \
-	--info addons_xmls/krypton_beta/addons.xml \
-	--checksum addons_xmls/krypton_beta/addons.xml.md5 \
-	repo_addons_src/catchuptvandmore.kodi.krypton.beta/ \
+	--info ./addons_xmls/krypton_beta/addons.xml \
+	--checksum ./addons_xmls/krypton_beta/addons.xml.md5 \
+	./repo_addons_src/catchuptvandmore.kodi.krypton.beta/ \
 	https://github.com/Catch-up-TV-and-More/plugin.video.catchuptvandmore\#dev
 
 echo -e "\t* Start create_repository.py on Krypton release repo"
-python create_repository.py \
+python ./create_repository.py \
 	--datadir ./zips/krypton_release \
-	--info addons_xmls/krypton_release/addons.xml \
-	--checksum addons_xmls/krypton_release/addons.xml.md5 \
-	repo_addons_src/catchuptvandmore.kodi.krypton.release/ \
+	--info ./addons_xmls/krypton_release/addons.xml \
+	--checksum ./addons_xmls/krypton_release/addons.xml.md5 \
+	./repo_addons_src/catchuptvandmore.kodi.krypton.release/ \
 	https://github.com/Catch-up-TV-and-More/plugin.video.catchuptvandmore\#master
 
 echo -e "\t* Start create_repository.py on Leai DRM test repo"
-python create_repository.py \
+python ./create_repository.py \
 	--datadir ./zips/leia_drmtest \
-	--info addons_xmls/leia_drmtest/addons.xml \
-	--checksum addons_xmls/leia_drmtest/addons.xml.md5 \
-	repo_addons_src/catchuptvandmore.kodi.leia.drmtest/ \
+	--info ./addons_xmls/leia_drmtest/addons.xml \
+	--checksum ./addons_xmls/leia_drmtest/addons.xml.md5 \
+	./repo_addons_src/catchuptvandmore.kodi.leia.drmtest/ \
 	https://github.com/Catch-up-TV-and-More/plugin.video.catchuptvandmoretestdrmkodi18\#master
 
 
