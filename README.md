@@ -14,7 +14,18 @@ Leia users can use Krypton add-on.
 
 ## Developers notes
 
-### How to update the Jarvis Release repository
+
+### Automatic script
+
+The `update_all_repos.sh` can be used to automatically check if any of our addon has been updated to a newer version. If that is the case the script will automatically create a commit with the latest changes and it will push the modification on this GitHub repository.
+This script is executed every night with a cron task but you can trigger it manually on your own computer.
+
+
+### Manually update a specific repository
+
+**Once `create_repository.py` is done, do not forget to commit/push modifications on this GitHub repo**
+
+#### How to update the Jarvis Release repository
 
 ```bash
 python create_repository.py \
@@ -25,7 +36,7 @@ python create_repository.py \
 	https://github.com/Catch-up-TV-and-More/plugin.video.catchuptvandmore\#kodi16
 ```
 
-### How to update the Jarvis Beta repository
+#### How to update the Jarvis Beta repository
 
 ```bash
 python create_repository.py \
@@ -36,7 +47,7 @@ python create_repository.py \
 	https://github.com/Catch-up-TV-and-More/plugin.video.catchuptvandmore\#kodi16
 ```
 
-### How to update the Krypton Release repository
+#### How to update the Krypton Release repository
 
 ```bash
 python create_repository.py \
@@ -47,7 +58,7 @@ python create_repository.py \
 	https://github.com/Catch-up-TV-and-More/plugin.video.catchuptvandmore\#master
 ```
 
-### How to update the Krypton Beta repository
+#### How to update the Krypton Beta repository
 
 ```bash
 python create_repository.py \
@@ -58,7 +69,7 @@ python create_repository.py \
 	https://github.com/Catch-up-TV-and-More/plugin.video.catchuptvandmore\#dev
 ```
 
-### How to update the Leia Test DRM repository
+#### How to update the Leia Test DRM repository
 
 ```bash
 python create_repository.py \
@@ -68,5 +79,6 @@ python create_repository.py \
 	repo_addons_src/catchuptvandmore.kodi.leia.drmtest/ \
 	https://github.com/Catch-up-TV-and-More/plugin.video.catchuptvandmoretestdrmkodi18\#master
 ```
+
 
 
