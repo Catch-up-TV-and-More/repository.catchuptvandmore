@@ -23,6 +23,11 @@ echo -e "\t* Leai DRM test repo current MD5: $leia_drmtest_md5"
 
 
 
+echo -e "\n To avoid any git conflict we do a force pull\n"
+git fetch --all
+git reset --hard origin/master
+
+
 
 echo -e "\n# Start create_repository.py script on all repos\n"
 
