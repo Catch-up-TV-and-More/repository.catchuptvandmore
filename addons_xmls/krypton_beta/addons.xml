@@ -37,7 +37,7 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.1~beta0">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.1~beta01">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.beautifulsoup4" version="4.3.2" />
@@ -45,6 +45,7 @@
     <import addon="script.module.requests" version="2.12.4" />
     <import addon="script.module.codequick" version="0.9.5" />
     <import addon="script.module.pytz" version="2014.2" />
+    <import addon="script.module.inputstreamhelper" version="0.3.3" />
   </requires>
   <extension library="addon.py" point="xbmc.python.pluginsource">
     <provides>video</provides>
@@ -69,6 +70,12 @@
     <source>https://github.com/Catch-up-TV-and-More/plugin.video.catchuptvandmore</source>
     <news>
 [Version 0.2.1]
+[Add] InputStreamHelper
+[Improvements] Les Argonautes - check video is available (CA)
+[Fix] Allocine - Change website (FR)
+[Add Channel] Add UKTV Play - DRM Contents (UK)
+[Add Live TV] Quest TV and Quest RED - DRM Contents (UK)
+[Add DRM] Quest OD (UK)
     </news>
     <assets>
       <icon>icon.png</icon>
