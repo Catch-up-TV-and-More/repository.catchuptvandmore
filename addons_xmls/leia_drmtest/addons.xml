@@ -37,7 +37,7 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmoretestdrmkodi18" name="Catch-up TV &amp; More Test DRM Kodi 18" provider-name="SylvainCcchetto,wwark" version="0.1.0~beta10">
+</addon><addon id="plugin.video.catchuptvandmoretestdrmkodi18" name="Catch-up TV &amp; More Test DRM Kodi 18" provider-name="SylvainCcchetto,wwark" version="0.1.0~beta11">
   <requires>
     <import addon="xbmc.python" version="2.26.0" />
     <import addon="script.module.beautifulsoup4" version="4.3.2" />
@@ -74,6 +74,7 @@
 [DRM] Add UKTVPlay channels (UK)
 [Improvements] Add settings to activate subtitle if present in the content (desactivate by default)
 [DRM] Add mycanal channels (FR)
+[Add Message] Addon deprecated
     </news>
     <assets>
       <icon>icon.png</icon>
