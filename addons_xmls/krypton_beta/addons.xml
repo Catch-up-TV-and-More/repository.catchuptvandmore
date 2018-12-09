@@ -37,7 +37,7 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.1~beta03">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.1~beta04">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.beautifulsoup4" version="4.3.2" />
@@ -81,6 +81,9 @@
 [Add Live TV] M6 Boutique (FR)
 [Add DRM] RTLPlay Replay (BE)
 [Improvements] Messages for content required account
+[Change] Add Subtitle to listitem - adapt the code to use last change of codequick
+[Fix] Function 'Clear cache' in the settings
+[Improvements] La 1ère and France3Region Replay (Add emissions, ...) (FR)
     </news>
     <assets>
       <icon>icon.png</icon>
