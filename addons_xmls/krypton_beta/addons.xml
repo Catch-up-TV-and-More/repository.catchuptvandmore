@@ -37,7 +37,7 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.1~beta04">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.1~beta05">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.beautifulsoup4" version="4.3.2" />
@@ -84,6 +84,8 @@
 [Change] Add Subtitle to listitem - adapt the code to use last change of codequick
 [Fix] Function 'Clear cache' in the settings
 [Improvements] La 1ère and France3Region Replay (Add emissions, ...) (FR)
+[Fix] TZLocal on Windows
+[Add Website] National FFF (FR)
     </news>
     <assets>
       <icon>icon.png</icon>
