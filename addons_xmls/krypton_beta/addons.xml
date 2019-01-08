@@ -37,7 +37,7 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.2~beta10">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.2~beta11">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.beautifulsoup4" version="4.3.2" />
@@ -96,6 +96,16 @@
 [Update] Noob TV (website) (FR)
 [Fix] Website - Culture Pub (FR)
 [Fix] Replay - Ici Télé (CA)
+[Fix] Replay - NRJ TV (BE)
+[Fix] Replay - TV5Monde Afrique (WO)
+[Fix] Replay - MTV FR (WO)
+[Fix] Replay - Quest OD (UK)
+[Fix] Replay - La Chaine Météo (FR)
+[Remove] Comic and Stories (6play) (FR)
+[Fix] Replay - LCI (FR)
+[Upate] Replay - RMC Story - Update Year 2019 (FR)
+[Fix] Replay - L'equipe (FR)
+[Add Live TV] viàLMTv Sarthe (FR)
     </news>
     <assets>
       <icon>icon.png</icon>
