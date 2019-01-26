@@ -37,7 +37,7 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.2~beta12">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.2~beta13">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.beautifulsoup4" version="4.3.2" />
@@ -106,6 +106,7 @@
 [Upate] Replay - RMC Story - Update Year 2019 (FR)
 [Fix] Replay - L'equipe (FR)
 [Add Live TV] viàLMTv Sarthe (FR)
+[Add Live TV] viàLMirabelle (FR)
     </news>
     <assets>
       <icon>icon.png</icon>
