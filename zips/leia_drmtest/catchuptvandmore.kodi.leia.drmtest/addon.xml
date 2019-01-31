@@ -6,15 +6,15 @@
   <extension point="xbmc.addon.repository" name="Catch-up TV &amp; More Leia test DRM repository addon">
     
     <info compressed="false">
-      http://raw.github.com/Catch-up-TV-and-More/repository.catchuptvandmore/master/addons_xmls/leia_drmtest/addons.xml
+      https://raw.github.com/Catch-up-TV-and-More/repository.catchuptvandmore/master/addons_xmls/leia_drmtest/addons.xml
     </info>
     
     <checksum>
-      http://raw.github.com/Catch-up-TV-and-More/repository.catchuptvandmore/master/addons_xmls/leia_drmtest/addons.xml.md5
+      https://raw.github.com/Catch-up-TV-and-More/repository.catchuptvandmore/master/addons_xmls/leia_drmtest/addons.xml.md5
     </checksum>
     
     <datadir zip="true">
-      http://raw.github.com/Catch-up-TV-and-More/repository.catchuptvandmore/master/zips/leia_drmtest
+      https://raw.github.com/Catch-up-TV-and-More/repository.catchuptvandmore/master/zips/leia_drmtest
     </datadir>
   
   </extension>
