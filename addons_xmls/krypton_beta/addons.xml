@@ -37,7 +37,7 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.3~beta01">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.3~beta02">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.beautifulsoup4" version="4.3.2" />
@@ -73,6 +73,10 @@
 [Fix] Live TV MyTF1 and LCI (FR)
 [Update] Add 2019 videos for the website Fosdem
 [Fix] Replay LCI (FR)
+[Fix] Live TV - CBS News (US)
+[Fix] Live TV - Canal 10 (FR)
+[Remove] Live TV- Souvenirs From Earth (WO)
+[Fix] Live TV - France 24 (WO)
     </news>
     <assets>
       <icon>icon.png</icon>
