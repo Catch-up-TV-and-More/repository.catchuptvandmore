@@ -37,7 +37,7 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.4~beta0">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.4~beta01">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.beautifulsoup4" version="4.3.2" />
@@ -70,6 +70,8 @@
     <source>https://github.com/Catch-up-TV-and-More/plugin.video.catchuptvandmore</source>
     <news>
 [Version 0.2.4]
+[Fix] Replay - Quest OD (UK)
+[Fix] Replay - VRT NU (BE)
     </news>
     <assets>
       <icon>icon.png</icon>
