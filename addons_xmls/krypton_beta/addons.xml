@@ -37,7 +37,7 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.3~beta03">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.4~beta0">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.beautifulsoup4" version="4.3.2" />
@@ -69,19 +69,7 @@
     <email>catch.up.tv.and.more [AT] gmail [DOT] com</email>
     <source>https://github.com/Catch-up-TV-and-More/plugin.video.catchuptvandmore</source>
     <news>
-[Version 0.2.3]
-[Fix] Live TV MyTF1 and LCI (FR)
-[Update] Add 2019 videos for the website Fosdem
-[Fix] Replay LCI (FR)
-[Fix] Live TV - CBS News (US)
-[Fix] Live TV - Canal 10 (FR)
-[Remove] Live TV- Souvenirs From Earth (WO)
-[Fix] Live TV - France 24 (WO)
-[Remove] Live TV - vià93 (FR)
-[Add] Replay - vià93 (FR)
-[Add] Live TV - viàVosges (FR)
-[Update] Replay - FranceTV - Add Notification if video not available (FR)
-[Add] Live TV - Télévision Loire 7 (FR)
+[Version 0.2.4]
     </news>
     <assets>
       <icon>icon.png</icon>
