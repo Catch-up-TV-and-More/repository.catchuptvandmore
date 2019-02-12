@@ -37,7 +37,7 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.4~beta03">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.4~beta04">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.beautifulsoup4" version="4.3.2" />
@@ -75,6 +75,9 @@
 [Update] Live TV - myTF1 - better quality (FR) - Thanks chamchenko
 [Add] Replay - Télévision Loire 7 (FR)
 [Add] Live TV - TV Com (BE)
+[Fix] Replay - ICI Télé (CA)
+[Add] Live TV - TVP Poland IN (PL)
+[Add] Live TV - Léman Bleu (CH)
     </news>
     <assets>
       <icon>icon.png</icon>
