@@ -37,7 +37,7 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.4~beta07">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.4~beta08">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.beautifulsoup4" version="4.3.2" />
@@ -80,6 +80,7 @@
 [Add] Replay and Live TV - Léman Bleu (CH)
 [Fix] Website - Allociné (FR)
 [Add] Live TV - Lucky Jack (FR)
+[Fix] Live TV - RTS Info (CH)
     </news>
     <assets>
       <icon>icon.png</icon>
