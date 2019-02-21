@@ -37,7 +37,7 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.4~beta11">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.4~beta12">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.beautifulsoup4" version="4.3.2" />
@@ -87,6 +87,7 @@
 [Fix] Replay - SRGSSR (CH)
 [Add] Replay - نسمة تي في (TN)
 [Fix] Live TV - Paramount Channel (ES|IT)
+[Add] Live TV - RT (Contents {FR|EN|AR|ES}) (WO)
     </news>
     <assets>
       <icon>icon.png</icon>
