@@ -6,15 +6,15 @@
   <extension name="Catch-up TV &amp; More Krypton/Release repository addon" point="xbmc.addon.repository">
     
     <info compressed="false">
-      http://raw.github.com/Catch-up-TV-and-More/repository.catchuptvandmore/master/addons_xmls/krypton_release/addons.xml
+      https://raw.github.com/Catch-up-TV-and-More/repository.catchuptvandmore/master/addons_xmls/krypton_release/addons.xml
     </info>
     
     <checksum>
-      http://raw.github.com/Catch-up-TV-and-More/repository.catchuptvandmore/master/addons_xmls/krypton_release/addons.xml.md5
+      https://raw.github.com/Catch-up-TV-and-More/repository.catchuptvandmore/master/addons_xmls/krypton_release/addons.xml.md5
     </checksum>
     
     <datadir zip="true">
-      http://raw.github.com/Catch-up-TV-and-More/repository.catchuptvandmore/master/zips/krypton_release
+      https://raw.github.com/Catch-up-TV-and-More/repository.catchuptvandmore/master/zips/krypton_release
     </datadir>
   
   </extension>
