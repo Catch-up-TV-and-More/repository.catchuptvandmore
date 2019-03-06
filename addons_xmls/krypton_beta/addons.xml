@@ -37,7 +37,7 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.5~beta02">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.5~beta03">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.beautifulsoup4" version="4.3.2" />
@@ -74,6 +74,9 @@
 [Fix] Replay - Arte (WO)
 [Fix] Subtitle - BVN (WO)
 [DRM] Replay - BVN (WO)
+[Remove] Beautifulsoup - BVN (WO)
+[Add] Replay - RT (Contents {FR}) (WO)
+[Add] Live TV - NPO Channels (NPO 1, NPO 2, NPO Nieuws, ....) (NL) - Thanks Forage !
     </news>
     <assets>
       <icon>icon.png</icon>
