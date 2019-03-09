@@ -37,7 +37,7 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.5~beta04">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.5~beta05">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.beautifulsoup4" version="4.3.2" />
@@ -81,6 +81,8 @@
 [Add] Replay - RT (Contents {FR|EN}) (WO)
 [Add] Live TV - NPO Channels (NPO 1, NPO 2, NPO Nieuws, ....) (NL) - Thanks Forage !
 [Add] Dutch translation of this add-on
+[Fix] Live TV - M6 Boutique (FR)
+[Add] Live TV - RTLPlay (RTL-TVI, RTL INFO, ...) (BE) - Thanks Gaet81
     </news>
     <assets>
       <icon>icon.png</icon>
