@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.catchuptvandmore"
        name="Catch-up TV &amp; More"
-       version="0.2.5~beta08"
+       version="0.2.5~beta09"
        provider-name="SylvainCcchetto,wwark">
   <requires>
     <import addon="xbmc.python" version="2.25.0"/>
@@ -42,7 +42,10 @@
 [Fix] Replay - Arte (WO)
 [Fix] Subtitle - BVN (WO)
 [DRM] Replay - BVN (WO)
-[Remove] Beautifulsoup - [BVN] (WO) | [30 millions d'Amis, Culturepub, Autoplus, Les Argonautes, Noob TV] (website) | [CNews] (FR)
+[Remove] Beautifulsoup - [BVN] (WO)
+[Remove] Beautifulsoup - [30 millions d'Amis, Culturepub, Autoplus, Les Argonautes, Noob TV, Tête à claques, Taratata, ONF, NFB, INA] (website)
+[Remove] Beautifulsoup - [CNews] (FR)
+[Remove] Beautifulsoup - [BRF Mediathek, RTC Télé Liege] (BE)
 [Add] Replay - RT (Contents {FR|EN}) (WO)
 [Add] Live TV - NPO Channels (NPO 1, NPO 2, NPO Nieuws, ....) (NL) - Thanks Forage !
 [Add] Dutch translation of this add-on
@@ -52,6 +55,7 @@
 [Fix] Plugin - remove some warning log
 [Add] Replay - 関西テレビ (JP)
 [Fix] Replay - Cnews (FR)
+[Fix] Live TV - France TV - some mistmatchs on the json "France 4 have the broacast_Id of France 5" (FR)
     </news>
     <assets>
       <icon>icon.png</icon>
