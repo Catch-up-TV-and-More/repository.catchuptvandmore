@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="catchuptvandmore.kodi.krypton.beta" name="Catch-up TV &amp; More Krypton/Beta repository addon" provider-name="SylvainCcchetto,wwark" version="0.0.4">
+<addons><addon id="catchuptvandmore.kodi.krypton.beta" name="Catch-up TV &amp; More Krypton/Beta repository addon" provider-name="SylvainCcchetto,wwark" version="0.0.5">
   <requires>
     <import addon="xbmc.addon" version="17.0.0" />
   </requires>
@@ -37,7 +37,7 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.5~beta10">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.5~beta11">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.beautifulsoup4" version="4.3.2" />
@@ -79,7 +79,7 @@
 [DRM] Replay - BVN (WO)
 [Remove] Beautifulsoup - [BVN] (WO)
 [Remove] Beautifulsoup - [30 millions d'Amis, Culturepub, Autoplus, Les Argonautes, Noob TV, Tête à claques, Taratata, ONF, NFB, INA] (website)
-[Remove] Beautifulsoup - [CNews, ABWeb, Antene Réunion, BFM TV, Gulli, Canal 10, CultureBox, KTO, GameOne, La 1ere, La chaine Météo, LCI, LCP] (FR)
+[Remove] Beautifulsoup - [CNews, ABWeb, Antene Réunion, BFM TV, Gulli, Canal 10, CultureBox, KTO, GameOne, La 1ere, La chaine Météo, LCI, LCP, RMC Decouverte] (FR)
 [Remove] Beautifulsoup - [BRF Mediathek, RTC Télé Liege, Télé MB] (BE)
 [Remove] Beautifulsoup - [Atresplayer, Realmadrir TV, Mitele] (ES)
 [Remove] Beautifulsoup - [ICI Télé, ICI TouTV, NTV, Téléquebec] (CA)
@@ -97,6 +97,7 @@
 [Fix] Replay - Tele MB (BE)
 [Fix] Replay - Unis (CA)
 [Fix] Replay - LCI (FR)
+[Add] Feature - Channels.m3u - see "README_LIVE_TV.md" to use it with PVR IPTV Simple
     </news>
     <assets>
       <icon>icon.png</icon>
