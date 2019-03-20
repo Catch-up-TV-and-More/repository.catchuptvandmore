@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="catchuptvandmore.kodi.jarvis.release" name="Catch-up TV &amp; More Jarvis/Release repository addon" version="0.0.4" provider-name="SylvainCcchetto,wwark">
+<addon id="catchuptvandmore.kodi.jarvis.release" name="Catch-up TV &amp; More Jarvis/Release repository addon" version="0.0.5" provider-name="SylvainCcchetto,wwark">
   <requires>
     <import addon="xbmc.addon" version="16.0.0"/>
   </requires>
