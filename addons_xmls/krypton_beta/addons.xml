@@ -37,7 +37,7 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.5~beta16">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.5~beta17">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.youtube.dl" version="18.225.0" />
@@ -111,6 +111,8 @@
 [Fix] Replay - TVER (JP)
 [Fix] Live TV - TVM3 (CH)
 [Fix] Replay - MyCanal (FR)
+[Remove] Images of channels and websites =&gt; stored in this repo "https://github.com/Catch-up-TV-and-More/images"
+[Remove] Requests - [AstresPlayer] (ES)
     </news>
     <assets>
       <icon>icon.png</icon>
