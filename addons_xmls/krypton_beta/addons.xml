@@ -37,7 +37,7 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.5~beta17">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.5~beta18">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.youtube.dl" version="18.225.0" />
@@ -113,6 +113,10 @@
 [Fix] Replay - MyCanal (FR)
 [Remove] Images of channels and websites =&gt; stored in this repo "https://github.com/Catch-up-TV-and-More/images"
 [Remove] Requests - [AstresPlayer] (ES)
+[Remove] Replay - [AstresPlayer] (ES)
+[Remove] Icon (channel/website) - Available now on the repo image of CU TV and More.
+[Add] Replay / Live - 8 Mont blanc (FR) - Thanks Gaet81
+[Add] Replay / Live - Mont Blanc Live TV (FR) - Thanks Gaet81
     </news>
     <assets>
       <icon>icon.png</icon>
