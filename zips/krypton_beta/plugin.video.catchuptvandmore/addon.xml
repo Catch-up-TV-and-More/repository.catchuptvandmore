@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.catchuptvandmore"
        name="Catch-up TV &amp; More"
-       version="0.2.6~beta02"
+       version="0.2.6~beta03"
        provider-name="SylvainCcchetto,wwark">
   <requires>
     <import addon="xbmc.python" version="2.25.0"/>
     <import addon="script.module.youtube.dl" version="18.225.0"/>
     <import addon="script.module.requests" version="2.12.4"/>
-    <import addon="script.module.codequick" version="0.9.5"/>
+    <import addon="script.module.codequick" version="0.9.8"/>
     <import addon="script.module.pytz" version="2014.2"/>
     <import addon="script.module.inputstreamhelper" version="0.3.3"/>
   </requires>
@@ -40,6 +40,8 @@
 [Add] Replay and Live TV - AT5 (NL)
 [Add] Notification to inform the new feature to bind CU TV And More with TV Mode of Kodi
 [Add] Replay - Luxe.TV (FR)
+[Add] Internal Favourites for the add-on.
+[Add] Live TV - Africa 24 (WO) 
     </news>
     <assets>
       <icon>icon.png</icon>
