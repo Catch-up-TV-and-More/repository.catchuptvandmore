@@ -37,7 +37,7 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.6~beta07">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.6~beta08">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.youtube.dl" version="18.225.0" />
@@ -83,6 +83,12 @@
 [Fix] Catch-Up TV - Ici TouvTV (CA)
 [Add/Remove] Catch-Up TV - Culturebox change name to Spectacles et Culture (France TV) (FR)
 [Fix] Catch-up TV - Jack (mycanal) (FR)
+[Fix] Icon channel in Kodi Live TV (inpustream live TV case)
+[Fix] Live TV - RTLPlay (BE)
+[Fix] Catch-up TV - MyTF1 (FR) - Some DALS contents
+[Add] Live TV - CanalC (BE)
+[Python2/3] Add compatibility for urllib (sky.py, canalc.py, ...)
+[Fix] Live TV - TVP 3 (PL) - Not shown in the plugin because of encoding issue
     </news>
     <assets>
       <icon>icon.png</icon>
