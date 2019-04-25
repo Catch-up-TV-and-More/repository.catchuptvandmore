@@ -37,7 +37,7 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.6~beta12">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.6~beta13">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.youtube.dl" version="18.225.0" />
@@ -101,6 +101,8 @@
 [Add] Live TV - 株式会社ウェザーニューズ (JP)
 [Improvement] If only one item in the menu, directly open this item
 [Fix] Live TV - Télé-Quebec (CA)
+[Fix] Catch-up TV - TVA (CA)
+[Add] Catch-up TV - NOOVO (CA)
     </news>
     <assets>
       <icon>icon.png</icon>
