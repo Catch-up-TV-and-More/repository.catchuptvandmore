@@ -37,7 +37,7 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.6~beta13">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.6~beta14">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.youtube.dl" version="18.225.0" />
@@ -103,6 +103,7 @@
 [Fix] Live TV - Télé-Quebec (CA)
 [Fix] Catch-up TV - TVA (CA)
 [Add] Catch-up TV - NOOVO (CA)
+[Python2/3] Add compatibility for Catch-up TV - Quest OD (UK) - remove double cast
     </news>
     <assets>
       <icon>icon.png</icon>
