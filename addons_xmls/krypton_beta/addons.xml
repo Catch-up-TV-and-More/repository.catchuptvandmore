@@ -37,12 +37,12 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.6~beta14">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.6~beta15">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.youtube.dl" version="18.225.0" />
     <import addon="script.module.requests" version="2.12.4" />
-    <import addon="script.module.codequick" version="0.9.8" />
+    <import addon="script.module.codequick" version="0.9.9" />
     <import addon="script.module.pytz" version="2014.2" />
     <import addon="script.module.inputstreamhelper" version="0.3.3" />
     <import addon="script.module.six" version="1.11.0" />
@@ -104,6 +104,7 @@
 [Fix] Catch-up TV - TVA (CA)
 [Add] Catch-up TV - NOOVO (CA)
 [Python2/3] Add compatibility for Catch-up TV - Quest OD (UK) - remove double cast
+[Fix] Catch-up TV - VRT NU (BE)
     </news>
     <assets>
       <icon>icon.png</icon>
