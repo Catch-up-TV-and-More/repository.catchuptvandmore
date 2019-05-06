@@ -37,7 +37,7 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.7~beta02">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.7~beta03">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.youtube.dl" version="18.225.0" />
@@ -76,6 +76,12 @@
 [Improvements] Update message of content requiring a subscription for Catch-up TV - 6play (FR) and RTLPlay (BE)
 [Fix] Website - Allociné (FR)
 [Fix] Catch-up TV - Caledonia (FR)
+[Fix] Search - Allociné, France TV, INA, ... (ALL)
+[Fix] Catch-up TV - KTO (FR)
+[Fix] Catch-up TV - Sky Sport (UK)
+[Add] Catch-up TV - NPO Start (NL)
+[Add] Catch-up TV and Live TV - Bristol TV (UK)
+[Add] Live TV - TVPI télévision d'ici (FR)
     </news>
     <assets>
       <icon>icon.png</icon>
