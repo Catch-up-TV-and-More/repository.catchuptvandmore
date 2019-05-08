@@ -37,7 +37,7 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.7~beta03">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.7~beta04">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.youtube.dl" version="18.225.0" />
@@ -82,6 +82,10 @@
 [Add] Catch-up TV - NPO Start (NL)
 [Add] Catch-up TV and Live TV - Bristol TV (UK)
 [Add] Live TV - TVPI télévision d'ici (FR)
+[Fix] Catch-up TV - نسمة تي في (TN)
+[Fix] Catch-up TV - RT (FR|EN) - Magazines/Shows
+[Improvements] Catch-up TV - UKTVPlay (UK) - Add Categories
+[Playlist] Catch-up TV - MyTF1 (FR) - Add playlist feature
     </news>
     <assets>
       <icon>icon.png</icon>
