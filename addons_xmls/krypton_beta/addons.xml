@@ -37,7 +37,7 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.7~beta05">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.7~beta06">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.youtube.dl" version="18.225.0" />
@@ -87,8 +87,11 @@
 [Improvements] Catch-up TV - UKTVPlay (UK) - Add Categories
 [Playlist] Catch-up TV - MyTF1 (FR) - Add playlist feature
 [Fix] Catch-up TV - BeinSport (WO)
-[Improvements] Catch-up TV - NPO (NL) - Use the API
 [Add] Live TV - UKTVPlay (Drama, Dave, ...) (UK)
+[DRM/Fix/Improvements] Catch-up TV - ICI Tout.tv (CA) (Play DRM Content, Add categories, ...)
+[Fix] Catch-up TV - J-One, GameOne, MTV (FR)
+[Fix] Catch-up TV - BX1 (BE) - Next Page
+[Fix] Catch-up TV - Rai Play (IT) - video duration
     </news>
     <assets>
       <icon>icon.png</icon>
