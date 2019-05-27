@@ -37,15 +37,16 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.7~beta11">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.7~beta12">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.youtube.dl" version="18.225.0" />
     <import addon="script.module.requests" version="2.12.4" />
-    <import addon="script.module.codequick" version="0.9.9" />
+    <import addon="script.module.codequick" version="0.9.10" />
     <import addon="script.module.pytz" version="2014.2" />
     <import addon="script.module.inputstreamhelper" version="0.3.3" />
     <import addon="script.module.six" version="1.11.0" />
+    <import addon="script.module.pyqrcode" version="0.0.1" />
   </requires>
   <extension library="addon.py" point="xbmc.python.pluginsource">
     <provides>video</provides>
