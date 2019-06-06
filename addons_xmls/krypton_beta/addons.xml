@@ -37,7 +37,7 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.7~beta14">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.7~beta15">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.youtube.dl" version="18.225.0" />
@@ -101,6 +101,7 @@
 [Add] Live TV - CCTV 1,2,3,4,... (CN)
 [Improvements] Live TV - France TV Sport - Don't use cache for listing live tvs / check if the thumb is available
 [Fix] Catch-up TV - VRT NU (BE)
+[Fix] Catch-up TV - MyTF1 (FR)
     </news>
     <assets>
       <icon>icon.png</icon>
