@@ -37,7 +37,7 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.9~beta0">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.9~beta01">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.youtube.dl" version="18.225.0" />
@@ -74,6 +74,9 @@
     <source>https://github.com/Catch-up-TV-and-More/plugin.video.catchuptvandmore</source>
     <news>
 [Version 0.2.9]
+[Fix] Catch-up TV - KTO (FR) - Some programs
+[Fix] Catch-up TV - MyCanal (FR) - Some programs
+[Add] Catch-up TV - Piwi + and TéléToon + (FR)
     </news>
     <assets>
       <icon>icon.png</icon>
