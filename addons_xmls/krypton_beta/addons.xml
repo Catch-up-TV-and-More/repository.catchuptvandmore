@@ -37,7 +37,7 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.8~beta04">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.9~beta0">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.youtube.dl" version="18.225.0" />
@@ -73,12 +73,7 @@
     <email>catch.up.tv.and.more at gmail dot com</email>
     <source>https://github.com/Catch-up-TV-and-More/plugin.video.catchuptvandmore</source>
     <news>
-[Version 0.2.8]
-[Fix] Live TV - L'équipe TV (FR)
-[Fix] Live TV - NRJ 12 / Cherie 25 (FR)
-[Add] Live TV - Home (UK)
-[Fix] Catch-up TV - MyTF1 (FR)
-[Remove] Catch-up TV - TFOU (FR)
+[Version 0.2.9]
     </news>
     <assets>
       <icon>icon.png</icon>
