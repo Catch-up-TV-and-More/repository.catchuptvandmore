@@ -37,7 +37,7 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.9~beta01">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.9~beta02">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.youtube.dl" version="18.225.0" />
@@ -77,6 +77,11 @@
 [Fix] Catch-up TV - KTO (FR) - Some programs
 [Fix] Catch-up TV - MyCanal (FR) - Some programs
 [Add] Catch-up TV - Piwi + and TéléToon + (FR)
+[Fix] Catch-up TV - Rai (IT) - Check if program has contents
+[Remove] Catch-up TV - J-One (FR) - No more contents in the website - Maybe will be readd in the future
+[Fix] Catch-up TV - GameOne (FR)
+[Add] Catch-up TV - Paramount Channel (FR)
+[Move] Live TV - Paramount Channel (ES|IT) from WO to IT and ES
     </news>
     <assets>
       <icon>icon.png</icon>
