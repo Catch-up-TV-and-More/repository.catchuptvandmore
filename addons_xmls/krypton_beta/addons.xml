@@ -37,7 +37,7 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.9~beta02">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.9~beta03">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.youtube.dl" version="18.225.0" />
@@ -82,6 +82,8 @@
 [Fix] Catch-up TV - GameOne (FR)
 [Add] Catch-up TV - Paramount Channel (FR)
 [Move] Live TV - Paramount Channel (ES|IT) from WO to IT and ES
+[Move] Catch-up TV - MTV (FR) from WO to FR
+[Remove] Log_uploader for the exception 'No items found'
     </news>
     <assets>
       <icon>icon.png</icon>
