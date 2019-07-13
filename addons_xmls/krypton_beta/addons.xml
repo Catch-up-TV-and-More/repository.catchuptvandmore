@@ -37,7 +37,7 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.9~beta05">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.9~beta06">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.youtube.dl" version="18.225.0" />
@@ -86,6 +86,7 @@
 [Remove] Log_uploader for the exception 'No items found'
 [Fix] Catch-up TV - Arte Concert (WO)
 [Remove] Live TV - Virgin Radio (FR)
+[Add] Website - Philharmoniedeparis.fr (FR)
     </news>
     <assets>
       <icon>icon.png</icon>
