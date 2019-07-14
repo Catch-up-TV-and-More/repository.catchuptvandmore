@@ -37,7 +37,7 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.9~beta06">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.9~beta07">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.youtube.dl" version="18.225.0" />
@@ -87,6 +87,9 @@
 [Fix] Catch-up TV - Arte Concert (WO)
 [Remove] Live TV - Virgin Radio (FR)
 [Add] Website - Philharmoniedeparis.fr (FR)
+[Fix] Catch-up TV - NPO (NL)
+[Fix] Catch-up TV - RT (EN)
+[Fix] Live TV - La7 (IT)
     </news>
     <assets>
       <icon>icon.png</icon>
