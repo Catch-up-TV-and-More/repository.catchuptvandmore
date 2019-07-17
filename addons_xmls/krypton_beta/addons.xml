@@ -37,7 +37,7 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.9~beta08">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCcchetto,wwark" version="0.2.9~beta09">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.youtube.dl" version="18.225.0" />
@@ -90,7 +90,7 @@
 [Fix] Catch-up TV - NPO (NL)
 [Fix] Catch-up TV - RT (EN)
 [Fix] Live TV - La7 (IT)
-[Fix] Live TV - RMC Découverte (FR)
+[Fix] Catch-up TV and Live TV - RMC Découverte (FR)
 [Fix] Live TV - L'équipe TV (FR)
     </news>
     <assets>
