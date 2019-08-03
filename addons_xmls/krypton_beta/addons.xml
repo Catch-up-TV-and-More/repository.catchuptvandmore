@@ -37,7 +37,7 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCecchetto,wwark" version="0.2.10~beta02">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCecchetto,wwark" version="0.2.10~beta03">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.youtube.dl" version="18.225.0" />
@@ -79,6 +79,7 @@
 [Add] Live TV - IDF 1 (FR)
 [Improvements] Use external tzlocal module
 [Fix] Catch-up TV - Arte (WO) - Fix Description
+[Fix] Guide TV (BE) - Need to rework the guide TV
     </news>
     <assets>
       <icon>icon.png</icon>
