@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.catchuptvandmore"
        name="Catch-up TV &amp; More"
-       version="0.2.11~beta04"
+       version="0.2.11~beta05"
        provider-name="SylvainCecchetto,wwark">
   <requires>
     <import addon="xbmc.python" version="2.25.0"/>
@@ -52,7 +52,13 @@
 [Add] Live TV - Grand Littoral TV (FR)
 [Add] Live TV - La Chaine Normande (FR)
 [Remove] Catch-up TV - Onzeo (FR)
-[Add] Live TV - Sport En France (FR) - (La chaine du mouvement sportif - Olympique)
+[Add] Live TV - Sport En France (FR) - (La chaine du mouvement sportif)
+[Fix] Catch-up TV and Live TV - La7 (IT)
+[Fix] Live TV - Paramount Channel (IT)
+[Add] Live TV - Provence Azur TV (FR)
+[Fix] Website - Allocine (FR) - Video without title
+[Add] Catch-up TV and Live TV - France 3 Région - Nouvelle-Aquitaine (FR)
+[Add] Catch-up TV and Live TV - TébéSud (FR)
     </news>
     <assets>
       <icon>icon.png</icon>
