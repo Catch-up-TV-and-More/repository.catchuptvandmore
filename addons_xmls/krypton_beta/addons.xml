@@ -37,7 +37,7 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCecchetto,wwark" version="0.2.12~beta02">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCecchetto,wwark" version="0.2.12~beta03">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.youtube.dl" version="18.225.0" />
@@ -81,6 +81,10 @@
 [Add] Live TV - TéléGrenoble (FR)
 [Add] Live TV - TéléNantes (FR)
 [Add] Catch-up TV and Live TV - BFM Lyon (FR)
+[Add] Live TV - TLC (FR)
+[Add] Live TV - TV Vendée (FR)
+[Add] Live TV - TV7 Bordeaux (FR)
+[Add] Live TV - TVT Val de Loire (FR)
     </news>
     <assets>
       <icon>icon.png</icon>
