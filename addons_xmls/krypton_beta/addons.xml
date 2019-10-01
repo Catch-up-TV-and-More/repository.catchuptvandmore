@@ -37,7 +37,7 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCecchetto,wwark" version="0.2.13~beta01">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCecchetto,wwark" version="0.2.13~beta02">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.youtube.dl" version="18.225.0" />
@@ -76,6 +76,9 @@
     <news>
 [Version 0.2.13]
 [Change] Live TV - MaTélé -&gt; ViaMaTélé (FR)
+[Fix] Live TV - L'équipe TV (FR)
+[Fix] Live TV - TBD (US)
+[Fix] Catch-up TV - Histoire (FR)
     </news>
     <assets>
       <icon>icon.png</icon>
