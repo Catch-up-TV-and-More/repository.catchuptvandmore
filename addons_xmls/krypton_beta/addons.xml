@@ -37,7 +37,7 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCecchetto,wwark" version="0.2.13~beta03">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCecchetto,wwark" version="0.2.13~beta05">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.youtube.dl" version="18.225.0" />
@@ -85,6 +85,9 @@
 [Remove] Live TV - Home, Really (UK) - Not present anymore in the website of uktvplay
 [Fix] Live TV - Télé Quebec (CA)
 [Fix] Catch-up TV - LCI (FR)
+[Fix] Live TV - KTO TV (FR)
+[Fix] Catch-up TV - MyTF1 (FR)
+[Fix] Live TV - Rai (IT) - Just rainews24 (need more work for other channels)
     </news>
     <assets>
       <icon>icon.png</icon>
