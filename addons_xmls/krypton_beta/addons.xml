@@ -37,7 +37,7 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCecchetto,wwark" version="0.2.14~beta02">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCecchetto,wwark" version="0.2.14~beta03">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.youtube.dl" version="18.225.0" />
@@ -83,6 +83,8 @@
 [Add] Setting - Possibility to disable log uploader pop up
 [Improvements] First Python 2/3 version working on Kodi 19
 [Improvements] Live TV - France TV (FR) - Possibility to use live TV not geolocalised outside France and DomTom
+[Fix] Catchup-TV - France TV (FR) - New API (need more test)
+[Improvements] TV guide - Use XMLTV instead of telerama API
     </news>
     <assets>
       <icon>icon.png</icon>
