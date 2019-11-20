@@ -37,7 +37,7 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCecchetto,wwark" version="0.2.14~beta03">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCecchetto,wwark" version="0.2.14~beta04">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.youtube.dl" version="18.225.0" />
@@ -85,6 +85,7 @@
 [Improvements] Live TV - France TV (FR) - Possibility to use live TV not geolocalised outside France and DomTom
 [Fix] Catchup-TV - France TV (FR) - New API (need more test)
 [Improvements] TV guide - Use XMLTV instead of telerama API
+[Fix] Catchup-TV - MyTF1 (FR) - Remove quality choose (Use kodi quality selection instead)
     </news>
     <assets>
       <icon>icon.png</icon>
