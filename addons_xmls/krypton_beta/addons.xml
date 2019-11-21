@@ -37,7 +37,7 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCecchetto,wwark" version="0.2.15~beta0">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCecchetto,wwark" version="0.2.15~beta01">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.youtube.dl" version="18.225.0" />
@@ -77,6 +77,10 @@
     <source>https://github.com/Catch-up-TV-and-More/plugin.video.catchuptvandmore</source>
     <news>
 [Version 0.2.15]
+[Fix] Download Mode - France TV (FR)
+[Improvements] Live TV - MyTF1 (FR) - Add notification if live TV is not available in your region
+[Fix] Favourites
+[Hotfix] Show Live TV even is TV guide is KO
     </news>
     <assets>
       <icon>icon.png</icon>
