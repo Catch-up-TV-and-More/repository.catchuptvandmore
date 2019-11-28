@@ -37,7 +37,7 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCecchetto,wwark" version="0.2.16~beta03">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCecchetto,wwark" version="0.2.16~beta04">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.youtube.dl" version="18.225.0" />
@@ -87,6 +87,8 @@
 [Fix] WebSite - National FFF (FR)
 [Fix] Catchup-TV - RMC Découverte (FR)
 [Fix] Catchup-TV - ICI Télé (CA)
+[Fix] Catchup-TV and Live TV - RMC Story (FR)
+[Add] Live TV - STV+1 (UK)
     </news>
     <assets>
       <icon>icon.png</icon>
