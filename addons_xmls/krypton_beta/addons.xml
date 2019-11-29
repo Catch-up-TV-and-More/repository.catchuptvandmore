@@ -37,7 +37,7 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCecchetto,wwark" version="0.2.16~beta04">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCecchetto,wwark" version="0.2.16~beta05">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.youtube.dl" version="18.225.0" />
@@ -89,6 +89,7 @@
 [Fix] Catchup-TV - ICI Télé (CA)
 [Fix] Catchup-TV and Live TV - RMC Story (FR)
 [Add] Live TV - STV+1 (UK)
+[Fix] WebSite - 30 Millions d'Amis (FR)
     </news>
     <assets>
       <icon>icon.png</icon>
