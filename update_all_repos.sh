@@ -66,11 +66,11 @@ jarvis_release_addon_xml=`wget https://raw.github.com/Catch-up-TV-and-More/plugi
 jarvis_release_last_version=`extract_addon_version "$jarvis_release_addon_xml"`
 echo -e "\t* Jarvis release addon last version: $jarvis_release_last_version"
 
-krypton_beta_addon_xml=`wget https://raw.github.com/Catch-up-TV-and-More/plugin.video.catchuptvandmore/dev/addon.xml -q -O -`
+krypton_beta_addon_xml=`wget https://raw.github.com/Catch-up-TV-and-More/plugin.video.catchuptvandmore/plugin.video.catchuptvandmore/dev/addon.xml -q -O -`
 krypton_beta_last_version=`extract_addon_version "$krypton_beta_addon_xml"`
 echo -e "\t* Krypton beta addon last version: $krypton_beta_last_version"
 
-krypton_release_addon_xml=`wget https://raw.github.com/Catch-up-TV-and-More/plugin.video.catchuptvandmore/master/addon.xml -q -O -`
+krypton_release_addon_xml=`wget https://raw.github.com/Catch-up-TV-and-More/plugin.video.catchuptvandmore/plugin.video.catchuptvandmore/master/addon.xml -q -O -`
 krypton_release_last_version=`extract_addon_version "$krypton_release_addon_xml"`
 echo -e "\t* Krypton release addon last version: $krypton_release_last_version"
 
@@ -131,7 +131,7 @@ else
 		--info ./addons_xmls/krypton_beta/addons.xml \
 		--checksum ./addons_xmls/krypton_beta/addons.xml.md5 \
 		./repo_addons_src/catchuptvandmore.kodi.krypton.beta/ \
-		https://github.com/Catch-up-TV-and-More/plugin.video.catchuptvandmore\#dev
+		https://github.com/Catch-up-TV-and-More/plugin.video.catchuptvandmore/plugin.video.catchuptvandmore\#dev
 fi
 
 
@@ -149,7 +149,7 @@ else
 		--info ./addons_xmls/krypton_release/addons.xml \
 		--checksum ./addons_xmls/krypton_release/addons.xml.md5 \
 		./repo_addons_src/catchuptvandmore.kodi.krypton.release/ \
-		https://github.com/Catch-up-TV-and-More/plugin.video.catchuptvandmore\#master
+		https://github.com/Catch-up-TV-and-More/plugin.video.catchuptvandmore/plugin.video.catchuptvandmore\#master
 fi
 
 
