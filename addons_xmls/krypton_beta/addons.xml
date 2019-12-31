@@ -37,7 +37,7 @@
     </website>
     
   </extension>
-</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCecchetto,wwark" version="0.2.17~beta06">
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" provider-name="SylvainCecchetto,wwark" version="0.2.17~beta07">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.youtube.dl" version="18.225.0" />
@@ -85,6 +85,7 @@
 [Improvement] Favourites - Migrate from pickled to json data
 [Fix] Catch-Up TV - Auvio RTBF (BE)
 [Fix] Live TV - CBS News (USA)
+[Fix] Catch-Up TV - TVA (Canada)
     </news>
     <assets>
       <icon>icon.png</icon>
