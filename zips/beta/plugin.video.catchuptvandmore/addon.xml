@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" version="0.2.40~beta18" provider-name="SylvainCecchetto,wwark,joaopa">
+  <requires>
+    <!-- xbmc.python -->
+    <import addon="script.module.codequick" version="0.9.13"/>
+    <import addon="script.module.youtube.dl" version="18.225.0"/>
+    <import addon="script.module.requests" version="2.12.4"/>
+    <import addon="script.module.pytz" version="2014.2"/>
+    <import addon="script.module.inputstreamhelper" version="0.3.3"/>
+    <import addon="script.module.six" version="1.11.0"/>
+    <import addon="script.module.pyqrcode" version="0.0.1"/>
+    <import addon="script.module.tzlocal" version="2.0.0"/>
+    <import addon="script.module.future" version="0.17.1"/>
+    <import addon="script.module.kodi-six" version="0.0.4"/>
+    <import addon="resource.images.catchuptvandmore" version="1.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py"/>
+  <extension point="xbmc.addon.metadata">
+    <!-- Set reuselanguageinvoker to false while developing the addon, making it only true for the production version -->
+    <!-- See https://kodi.wiki/view/Addon.xml#.3Creuselanguageinvoker.3E -->
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <summary lang="fr_FR">Catch-Up TV &amp; More : Télévision de rattrapage, télévision en direct et bien plus encore.</summary>
+    <description lang="fr_FR">Catch-Up TV &amp; More regroupe dans une même extension de Kodi l'ensemble des vidéos des différents services et chaînes de rattrapage TV ainsi que l'accès au direct. De plus, cette extension vous permet d'accéder rapidement aux vidéos et contenus proposés par certains sites internet.</description>
+    <disclaimer lang="fr_FR">Retours de bugs, propositions d'améliorations ou d'ajout de contenus sont les bienvenue ! GitHub ou e-mail.</disclaimer>
+    <summary lang="en_GB">Catch-Up TV &amp; More: It's all in the title.</summary>
+    <description lang="en_GB">Catch-Up TV &amp; More brings together in one Kodi add-on all the videos of the various services and channels of catch-up TV and live TV. Furthermore, this add-on allows you to quickly access the videos and content offered by certain websites.</description>
+    <disclaimer lang="en_GB">Bug reports, suggestions for improvements or content additions are welcome! GitHub or e-mail.</disclaimer>
+    <description lang="he_IL">ההרחבה מאפשרת לך להתעדכן בתוכן השידורים תוסף אחד של קודי מרכז את כל קטעי וידאו של שירותים שונים וערוצי תוכן משודר. בנוסף, תוספת זו מאפשרת לך לגשת במהירות לסרטונים ולתכנים המוצעים על ידי אתרים מסוימים.</description>
+    <disclaimer lang="he_IL">דוחות שגיאה, הצעות לשיפור או תוספות תוכן יתקבלו בברכה! ל-GitHub או אימייל.</disclaimer>
+    <summary lang="nl_NL">Catch-Up TV &amp; More: Replay tv, Live tv en meer.</summary>
+    <description lang="nl_NL">Catch-Up TV &amp; More brengt replay en live tv van verschikkende diensten en kanalen samen in één Kodi add-on. Bovendien stelt deze add-on u instaat video's van bepaalde websites makkelijk te benaderen.</description>
+    <disclaimer lang="nl_NL">Bug meldingen, suggesties ter verbetering of additionele inhouden zijn welkom! Via GitHub of e-mail.</disclaimer>
+
+    <language></language>
+    <platform>all</platform>
+    <license>GPL-2.0</license>
+    <forum>https://forum.kodi.tv/showthread.php?tid=307107</forum>
+    <website>https://catch-up-tv-and-more.github.io/</website>
+    <email>catch.up.tv.and.more at gmail dot com</email>
+    <source>https://github.com/Catch-up-TV-and-More/plugin.video.catchuptvandmore</source>
+    <news>
+[Version 0.2.40]
+[UK - UKTVPLAY] Fix datas for Brightcove
+[FR - LCP] Fix replay
+[UK - UKTVPLAY] Fix for channel_id (PR #1283) thanks @nictjir
+[FR - RMCBFMPLAY] Fix title (PR #1294 issue #1286) thanks @yapa69
+[BE - RTC] Fix replay and live (PR #1297) thanks @jmzambon
+[UK - BLAZE] Fix replay (PR #1293 issue #1282) thanks @nictjir
+[UK - UKTVPLAY] Fix replay (PR #1293 issue #1284) thanks @nictjir
+[FR - FRANCETV] Fix for replay and live thanks @SebMourlhou
+[SFRTV] Config URL has changed (PR #1309 issue #1307) thanks @SebMourlhou
+(PROJECT] Support proxy configuration (PR #1304) thanks @cedk
+[FR - MYCANAL] Fix json parser thanks @IceFreak66
+[WO - ALJAZEERA] Fix English stream
+[BE - RTLPlay] Fix live (PR #1314 issue #1303) thanks @darodi
+[WEBSITE - INA] Complete rewrite (PR #1316 issue #1265) thanks @darodi
+[WEBSITE - INA] Search and homepage (PR #1318 issue #1265) thanks @darodi
+[Project] Need manifest headers for Omega too in get_stream_with_quality (PR #1317) thanks @SebMourihou
+[CH - CANAL9] Live  Live (PR #1319 issue #936) thanks @darodi
+[CH - AlpenWelle plus] Live (PR #1330 issue #936) thanks @darodi
+[CH - CANALALPHA] Live (PR #1330 issue #936) thanks @darodi
+[CH - CARAC] Live (PR #1330 issue #936) thanks @darodi
+[CH - Blick] Live (PR #1330 issue #936) thanks @darodi
+[CH - Die Neue Zeit] Live (PR #1330 issue #936) thanks @darodi
+[CH - DieuTV] Live (PR #1330 issue #936) thanks @darodi
+[CH - DritaTV] Live (PR #1330 issue #936) thanks @darodi
+[WO - ARTE] Fix live out of bound exception (PR #1324) thanks @darodi
+[WO - icitelevision] Fix http error 406 (PR #1326) thanks @darodi
+[WO - DW] Fix live (PR #1326) thanks @darodi
+[WO - QVC] Fix live url (PR #1328) thanks @darodi
+[BE - TeleMB] Fix live url (PR #1330 issue #1329) thanks @darodi
+[BE - LN24] Fix live (PR #1331 issue #1329) thanks @darodi
+[FR - FRANCETV] Add drm replays (PR #1336) thanks @jeff2900
+[PROJECT] Fix SSLError DH_KEY_TOO_SMALL (PR #1336) thanks @jeff2900
+[UK - UKTVPLAY] Fix "NoneType object has no attribute group" (PR #1342 issue #1335) thanks @jeff2900
+[BE - TVCOM] Fix live (PR #1337) thanks @darodi
+[BE - Télésambre] Fix live (PR #1341) thanks @darodi
+[BE - TVLUX] Fix live (PR #1338) thanks @darodi
+[BE - ACTV] Fix live (PR #1340) thanks @darodi
+[BE - LN24] Fix live (PR #1339) thanks @darodi
+[FR - BIPTV] Fix live
+[UK - CHANNEL4] Fix series listing in replay (issue #1344)
+[FR - BIPTV] Clean-up
+[FR - TVVENDEE] FIx live
+[FR - TLC] Fix live
+[FR - LCI] Fix KeyError: 'next' (PR #1345) thanks @jeff2900
+[FR - MYTF1] Add LCI channel (PR #1345) thanks @jeff2900
+[FR - MYTF1] Fix display bad items (PR #1346) thanks @jeff2900
+[FR - NRJ] Fix replay (PR #1347) thanks @jeff2900
+[FR] Add channel paris-h24 (PR #1349) thanks @SebMourlhou
+[BO - BOLIVIATV] Add channel (PR #1348) thanks @jimmygilles
+[BO - ATB] Add channel (PR #1348) thanks @jimmygilles
+[BO - REDUNO] Add channel (PR #1348) thanks @jimmygilles
+[BO - TVUMSA] Add channel (PR #1348) thanks @jimmygilles
+[FR - CNEWS] Fix item where live is defined
+[FR - MYTF1] MYTF1 is TF1+ now
+[FR - CNEWS] Allow redirection in replay (issue #1351)
+[FR - TF1PLUS] Fix a typo and Frenchify credential request (issue #1353)
+[FR - TF1PLUS] Try to use widevine drm (issue #1352)
+[FR - CNEWS] Fix Error 403 (PR #1361 issue #1354) thanks @jeff2900
+[PROJECT] Updated random user_agents list (PR #1360) thanks @jeff2900
+[IT - RAIPLAY] Fix RaiPlay live TV (PR #1356) thanks @jmzambon
+[FR - TF1PLUS] Fix login (PR #1357 issue #1352) thanks @darodi
+[FR - TF1PLUS] Avoid Fairplay drm (PR #1357 issue #1352) thanks @darodi
+[CH - TELETICINO] Fix Teleticino live (PR #1364) thanks @jmzambon
+[FR - FRANCETV] Fix live freeze (PR #2900 issue #1020, issue #1376) thanks @jeff2900
+[IT - RAIPLAY] Fix RaiPlay live TV (PR #1369) thanks @jmzambon
+[FR - 6PLAY] Add replay up to 1080p (PR #1372) thanks @jeff2900
+[FR - FRANCETV] Fix error kodi 20 (PR #1378 issue #1374) thanks @jeff2900
+[UK - BLAZE] Fx replay and live (PR #1382) thanks @nictjir
+[PROJECT] Minor changes to English README (PR #1383) thanks @Sakeyjakey
+[FR] Fix ramdom headers (PR #1397) thanks @jeff2900
+[FR - FRANCETV] Fix replay drm  (PR #1398 issue #1387) thanks @jeff2900
+[FR - MYCANAL] Fix replay (PR #1399 issue #1395) thanks @jeff2900
+[JP - NTVNEWS24] Fix live
+[FR - SPORTENFRANCE] Fix live
+[FR - MOSELLETV] Viamoselle is MoselleTV now. Fix live
+[FR - VIAOCCITANIE] Fix live and begin to split via file
+[FR - VIAMATELE] Fix live and use its own file
+[JP - TVER] Fix TVTokyo channel (issue #1408) thanks @kalun85
+[UK - CHANNEL4] Fix replay (issue #1416)
+[PROJECT] Update user-agent
+[WO - FRANCE24] Fix live (issue #1417)
+[WO - TV5MONDE] Fix error 403 (PR #1422) thanks @jeff2900
+[FR - 6PLAY] Fix error 404 (PR #1421 issue ##1420) thanks @jeff2900
+[FR - FRANCE3REGIONS] FIx live (issue #1424)
+[FR - FRANCE3REGIONS] Fix replay (PR #1425) thanks @jeff2900
+[FR - RFMBMCPLAY] Remove problematic workaround (issue #1431)
+[FR - BFM2] Add live
+[FR - BFM] Add fallback for BFMs live
+[MA - M24] Fix live
+[BE - RTBF] Update search API version 1.20 to 1.23 (PR #1438 issue #1414) thanks @xaviermiller
+[FR - CNEWS] Fix replay (issue #1443)
+[MA - SNRT] Fix live
+[FR - FRANCE3REGIONS] Fix missing replay (PR #1444) thanks @jeff2900
+[PROJECT] Update User-Agent (issue #1445) thanks @jeff2900
+[MA - MEDI1] Fix live
+[FR - CNEWS] Fix a typo
+[MA - TELEMAROC] Fix live
+----
+Visit WebSite - http://mpdb.tv/#home which host the french forum used by users of CU TV and More
+    </news>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+      <screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+      <screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+      <screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+      <screenshot>resources/screenshots/screenshot-04.jpg</screenshot>
+      <screenshot>resources/screenshots/screenshot-05.jpg</screenshot>
+    </assets>
+  </extension>
+</addon>
