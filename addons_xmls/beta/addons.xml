@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<addons><addon id="catchuptvandmore.kodi.beta" name="Catch-up TV &amp; More's Beta repository" version="0.0.6" provider-name="SylvainCecchetto, wwark">
+  <requires>
+    <import addon="xbmc.addon" version="17.0.0" />
+  </requires>
+  <extension point="xbmc.addon.repository" name="Catch-up TV &amp; More's Beta repository">
+    <dir>
+      <info compressed="false">https://raw.github.com/Catch-up-TV-and-More/repository.catchuptvandmore/master/addons_xmls/beta/addons.xml</info>
+      <checksum>https://raw.github.com/Catch-up-TV-and-More/repository.catchuptvandmore/master/addons_xmls/beta/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.github.com/Catch-up-TV-and-More/repository.catchuptvandmore/master/zips/beta</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Install Add-ons from Catch-up TV &amp; More repository</summary>
+    <description>Download and install Catch-up TV &amp; More add-on in its latest official version from the official developers repository. As soon as a new beta version is published on the GitHub repository of Catch-up TV &amp; More, this version is available in this repository.</description>
+    <platform>all</platform>  
+    <website>https://catch-up-tv-and-more.github.io/</website>
+  </extension>
+</addon><addon id="plugin.video.catchuptvandmore" name="Catch-up TV &amp; More" version="0.2.41~beta11" provider-name="SylvainCecchetto,wwark,joaopa">
+  <requires>
+    
+    <import addon="script.module.codequick" version="0.9.13" />
+    <import addon="script.module.youtube.dl" version="18.225.0" />
+    <import addon="script.module.requests" version="2.12.4" />
+    <import addon="script.module.pytz" version="2014.2" />
+    <import addon="script.module.inputstreamhelper" version="0.3.3" />
+    <import addon="script.module.six" version="1.11.0" />
+    <import addon="script.module.pyqrcode" version="0.0.1" />
+    <import addon="script.module.tzlocal" version="2.0.0" />
+    <import addon="script.module.future" version="0.17.1" />
+    <import addon="script.module.kodi-six" version="0.0.4" />
+    <import addon="resource.images.catchuptvandmore" version="1.0.0" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" />
+  <extension point="xbmc.addon.metadata">
+    
+    
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <summary lang="fr_FR">Catch-Up TV &amp; More : Télévision de rattrapage, télévision en direct et bien plus encore.</summary>
+    <description lang="fr_FR">Catch-Up TV &amp; More regroupe dans une même extension de Kodi l'ensemble des vidéos des différents services et chaînes de rattrapage TV ainsi que l'accès au direct. De plus, cette extension vous permet d'accéder rapidement aux vidéos et contenus proposés par certains sites internet.</description>
+    <disclaimer lang="fr_FR">Retours de bugs, propositions d'améliorations ou d'ajout de contenus sont les bienvenue ! GitHub ou e-mail.</disclaimer>
+    <summary lang="en_GB">Catch-Up TV &amp; More: It's all in the title.</summary>
+    <description lang="en_GB">Catch-Up TV &amp; More brings together in one Kodi add-on all the videos of the various services and channels of catch-up TV and live TV. Furthermore, this add-on allows you to quickly access the videos and content offered by certain websites.</description>
+    <disclaimer lang="en_GB">Bug reports, suggestions for improvements or content additions are welcome! GitHub or e-mail.</disclaimer>
+    <description lang="he_IL">ההרחבה מאפשרת לך להתעדכן בתוכן השידורים תוסף אחד של קודי מרכז את כל קטעי וידאו של שירותים שונים וערוצי תוכן משודר. בנוסף, תוספת זו מאפשרת לך לגשת במהירות לסרטונים ולתכנים המוצעים על ידי אתרים מסוימים.</description>
+    <disclaimer lang="he_IL">דוחות שגיאה, הצעות לשיפור או תוספות תוכן יתקבלו בברכה! ל-GitHub או אימייל.</disclaimer>
+    <summary lang="nl_NL">Catch-Up TV &amp; More: Replay tv, Live tv en meer.</summary>
+    <description lang="nl_NL">Catch-Up TV &amp; More brengt replay en live tv van verschikkende diensten en kanalen samen in één Kodi add-on. Bovendien stelt deze add-on u instaat video's van bepaalde websites makkelijk te benaderen.</description>
+    <disclaimer lang="nl_NL">Bug meldingen, suggesties ter verbetering of additionele inhouden zijn welkom! Via GitHub of e-mail.</disclaimer>
+
+    <language />
+    <platform>all</platform>
+    <license>GPL-2.0</license>
+    <forum>https://forum.kodi.tv/showthread.php?tid=307107</forum>
+    <website>https://catch-up-tv-and-more.github.io/</website>
+    <email>catch.up.tv.and.more at gmail dot com</email>
+    <source>https://github.com/Catch-up-TV-and-More/plugin.video.catchuptvandmore</source>
+    <news>
+[Version 0.2.41]
+[UK - CHANNEL4] Fix replay (PR #1465 issue #1464) thanks @ploughpuff
+[FR - 6PLAY] Fix replay (PR #1468 issue #1466) thanks @jeff2900
+[UK - CHANNEL4] Fix duplicates on Next Page and add Sort By setting (PR #1467 issue #1128) thanks @ploughpuff
+[UK - BLAZE] Fix replay (issue #1471)
+[UK - UKTVPLAY] Fix replay (PR #1470 issue #1393) @nictjir
+[FR - 6PLAY] Code improvement (PR #1472) thanks @jeff2900
+[WO - ARTE] Fix replay (PR #1476) thanks @jeff2900
+[FR - TF1PLUS] Fix drmed live (PR #1428 issue #1427) thanks @nitrorac
+[JP - TVER] Change API (issue #1481)
+[JP - TVER] Add user agent in headers (issue #1493)
+[FR - MYCANAL] Disabled since not working
+[PROJECT] BFM Ile-de-France is no longer available (issue #1491)
+[BE - RTBF] Fix replay (PR #1494 issue #1485) thanks @jeff2900
+[UK - STV] Allow some downloads (issue #1430)
+[CH - SRGSSR] Fix RTS replay (PR #1497) thanks @jeff2900
+[FR - FRANCETV] Enabled Replay dash stream (PR #1496) thanks @jeff2900
+[WO - TV5MONDE] Fix replay error 403 (PR #1499) thanks @jeff2900
+[WO - TV5MONDEAFRIQUE] Fix replay error 403 (PR #1500) thanks @jeff2900
+[CH - SRGSSR] Fix RTS replay (PR #1501) thanks @jeff2900
+[FR] Add TvMonaco
+[FR] Sort skeleton
+[VE - VENEZOLANA] Fix live
+[PE - ATV] Fix live
+[PE - ENLACE] Fix live
+[PE - PANAMERICANA] Fix live
+[BO - BOLIVIATV] Fix live
+[JP - JAPANNETSHOPPINGDX] Remove completely
+[JP] Add QVC
+[PROJECT] Fix the video path in Brightcove resolver
+[UK - SKYNEWS] Fix live
+[WO - TV5MONDE] Fix replay error 403 (PR #1506) thanks @jeff2900
+[WO - TV5MONDEAFRIQUE] Fix replay error 403 (PR #1507) thanks @jeff2900
+[BE - RTLPLAYBE] Fix missing videos (PR #1508 issue #1434) thanks @jeff2900
+[UK] Remove not available channels (issue #1515)
+[UK - FAILARMY] Fix live
+[UK - THEPETCOLLECTIVE] Fix live
+[UK] Change the country of some channels
+[WO - RT] Only Arabic language is available
+[UK - DUST] Remove completely
+[UK - BOXPLUS] Remove completely
+[GR - EPT] Fix live (issue #1327)
+[WO - EPTWORLD] Fix live (issue #1327)
+[GR - EPT] Add some channels
+[WO - AFRICA24] Fix live
+----
+Visit WebSite - http://mpdb.tv/#home which host the french forum used by users of CU TV and More
+    </news>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+      <screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+      <screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+      <screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+      <screenshot>resources/screenshots/screenshot-04.jpg</screenshot>
+      <screenshot>resources/screenshots/screenshot-05.jpg</screenshot>
+    </assets>
+  </extension>
+</addon><addon id="resource.images.catchuptvandmore" name="Catch-up TV &amp; More channel logos and artwork" version="1.0.26" provider-name="SylvainCecchetto,wwark,joaopa">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0" />
+  </requires>
+  <extension point="kodi.resource.images" />
+  <extension point="xbmc.addon.metadata">
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <summary lang="en_GB">Channel logos and artwork used in Catch-up TV &amp; More</summary>
+    <description lang="en_GB">Channel logos and artwork used in Catch-up TV &amp; More</description>
+    <platform>all</platform>
+    <license>GPL-2.0</license>
+    <website>https://catch-up-tv-and-more.github.io/</website>
+    <email>catch.up.tv.and.more at gmail dot com</email>
+    <source>https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore</source>
+    <news>
+[Version 1.0.26]
+[Add/Updates] Some new logos and update existing logos
+    </news>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon></addons>
