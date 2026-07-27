@@ -1,0 +1,29 @@
+name: CI
+
+# Controls when the action will run.
+on: workflow_dispatch
+
+jobs:
+
+  # Update repository.catchuptvandmore
+  update-repo:
+    name: Update repository.catchuptvandmore
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.8
+      - name: Check out repository.catchuptvandmore repository
+        uses: actions/checkout@v4
+        with:
+          repository: Catch-up-TV-and-More/repository.catchuptvandmore
+  
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Configure git
+        run: |
+          git config user.name 'GitHub Actions'
+          git config user.email 'github@noreply.github.com'
+      - name: Update all repositories
+        run: ./update_all_repos.sh
