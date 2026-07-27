@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="catchuptvandmore.kodi.beta" name="Catch-up TV &amp; More's Beta repository" version="0.0.6" provider-name="SylvainCecchetto, wwark">
+  <requires>
+    <import addon="xbmc.addon" version="17.0.0"/>
+  </requires>
+  <extension point="xbmc.addon.repository" name="Catch-up TV &amp; More's Beta repository">
+    <dir>
+      <info compressed="false">https://raw.github.com/Catch-up-TV-and-More/repository.catchuptvandmore/master/addons_xmls/beta/addons.xml</info>
+      <checksum>https://raw.github.com/Catch-up-TV-and-More/repository.catchuptvandmore/master/addons_xmls/beta/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.github.com/Catch-up-TV-and-More/repository.catchuptvandmore/master/zips/beta</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Install Add-ons from Catch-up TV &amp; More repository</summary>
+    <description>Download and install Catch-up TV &amp; More add-on in its latest official version from the official developers repository. As soon as a new beta version is published on the GitHub repository of Catch-up TV &amp; More, this version is available in this repository.</description>
+    <platform>all</platform>  
+    <website>https://catch-up-tv-and-more.github.io/</website>
+  </extension>
+</addon>
